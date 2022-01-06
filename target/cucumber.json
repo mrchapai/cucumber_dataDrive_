@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User hould be abe to login with valid credentials",
+        "description": "",
+        "id": "techfios-login-fanctionality-validation;user-hould-be-abe-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4396910600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Techfios login page",
+            "match": {
+              "location": "LotinStepDefination.Given_User_is_on_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163794900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enter username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 24
+                }
+              ],
+              "location": "LotinStepDefination.user_enter_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3097609000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 21
+                }
+              ],
+              "location": "LotinStepDefination.user_enter_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4617230600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Signin button",
+            "match": {
+              "location": "LotinStepDefination.user_clicks_on_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3013703100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should land on Dadhbord Page",
+            "match": {
+              "location": "LotinStepDefination.user_should_land_on_Dadhbord_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Techfios login fanctionality validation",
+    "description": "",
+    "id": "techfios-login-fanctionality-validation",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/TF_login.feature"
+  }
+]
