@@ -1,89 +1,109 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("./src/test/java/features/TF_login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/loginWithDataFromDatabase.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Techfios login fanctionality validation",
+  "line": 2,
+  "name": "Techfios login page with data extracted from databases",
   "description": "",
-  "id": "techfios-login-fanctionality-validation",
-  "keyword": "Feature"
+  "id": "techfios-login-page-with-data-extracted-from-databases",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@DbF1"
+    }
+  ]
+});
+formatter.before({
+  "duration": 5088265300,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 2,
-  "name": "User hould be abe to login with valid credentials",
-  "description": "",
-  "id": "techfios-login-fanctionality-validation;user-hould-be-abe-to-login-with-valid-credentials",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 3,
-  "name": "User is on Techfios login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "User enter username as \"demo@techfios.com\"",
-  "keyword": "When "
-});
-formatter.step({
   "line": 5,
-  "name": "User enter password \"abc123\"",
-  "keyword": "When "
+  "name": "1 User hould be abe to login with valid credentials",
+  "description": "",
+  "id": "techfios-login-page-with-data-extracted-from-databases;1-user-hould-be-abe-to-login-with-valid-credentials",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Db1"
+    }
+  ]
 });
 formatter.step({
   "line": 6,
-  "name": "user clicks on Signin button",
-  "keyword": "And "
+  "name": "User is on Techfios login page with daata",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "user should land on Dadhbord Page",
+  "name": "User enter \"username\" from techfios with database",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User enter \"password\" from techfios with database",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "user clicks on Signin button with database",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "user should land on Dadhbord Page with database",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LotinStepDefination.Given_User_is_on_Techfios_login_page()"
+  "location": "LoginStepDefination.user_is_on_Techfios_login_page_with_daata()"
 });
 formatter.result({
-  "duration": 4396910600,
+  "duration": 114727400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "demo@techfios.com",
-      "offset": 24
+      "val": "username",
+      "offset": 12
     }
   ],
-  "location": "LotinStepDefination.user_enter_username_as(String)"
+  "location": "LoginStepDefination.user_enter_from_techfios_with_database(String)"
 });
 formatter.result({
-  "duration": 163794900,
+  "duration": 4402393900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "abc123",
-      "offset": 21
+      "val": "password",
+      "offset": 12
     }
   ],
-  "location": "LotinStepDefination.user_enter_password(String)"
+  "location": "LoginStepDefination.user_enter_from_techfios_with_database(String)"
 });
 formatter.result({
-  "duration": 3097609000,
+  "duration": 3149532000,
   "status": "passed"
 });
 formatter.match({
-  "location": "LotinStepDefination.user_clicks_on_Signin_button()"
+  "location": "LoginStepDefination.user_clicks_on_Signin_button_with_database()"
 });
 formatter.result({
-  "duration": 4617230600,
+  "duration": 6415801100,
   "status": "passed"
 });
 formatter.match({
-  "location": "LotinStepDefination.user_should_land_on_Dadhbord_Page()"
+  "location": "LoginStepDefination.user_should_land_on_Dadhbord_Page_with_database()"
 });
 formatter.result({
-  "duration": 3013703100,
+  "duration": 3234817900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 701706400,
   "status": "passed"
 });
 });
