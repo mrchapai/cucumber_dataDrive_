@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5088265300,
+  "duration": 3777111800,
   "status": "passed"
 });
 formatter.scenario({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "LoginStepDefination.user_is_on_Techfios_login_page_with_daata()"
 });
 formatter.result({
-  "duration": 114727400,
+  "duration": 106038200,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enter_from_techfios_with_database(String)"
 });
 formatter.result({
-  "duration": 4402393900,
+  "duration": 3522494600,
   "status": "passed"
 });
 formatter.match({
@@ -85,25 +85,25 @@ formatter.match({
   "location": "LoginStepDefination.user_enter_from_techfios_with_database(String)"
 });
 formatter.result({
-  "duration": 3149532000,
+  "duration": 3148714700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_Signin_button_with_database()"
 });
 formatter.result({
-  "duration": 6415801100,
+  "duration": 4269991900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_should_land_on_Dadhbord_Page_with_database()"
 });
 formatter.result({
-  "duration": 3234817900,
+  "duration": 3207479300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 701706400,
+  "duration": 641216900,
   "status": "passed"
 });
 });
